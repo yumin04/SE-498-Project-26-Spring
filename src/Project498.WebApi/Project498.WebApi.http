@@ -1,8 +1,5 @@
-@HostAddress = http://localhost:5031
-
-# Weather sample
-GET {{HostAddress}}/weatherforecast/
-Accept: application/json
+@DefaultHostAddress = http://localhost:5031
+@HostAddress = {{DefaultHostAddress}}
 
 ###
 
